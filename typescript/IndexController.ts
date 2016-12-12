@@ -7,4 +7,8 @@ export class IndexController {
 
     res.render('index', {title: 'Node'});
   }
+  
+  public get className() {
+    return 'IndexController';
+  }
 }

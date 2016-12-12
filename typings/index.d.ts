@@ -1,5 +1,7 @@
+/// <reference path="globals/chai/index.d.ts" />
 /// <reference path="globals/cookie-parser/index.d.ts" />
 /// <reference path="globals/express-serve-static-core/index.d.ts" />
+/// <reference path="globals/mocha/index.d.ts" />
 /// <reference path="globals/morgan/index.d.ts" />
 /// <reference path="globals/node/index.d.ts" />
 /// <reference path="modules/body-parser/index.d.ts" />
