@@ -1,3 +1,6 @@
-.tscache/*
+.baseDir.ts
 .idea/*
+.tscache/*
 app/*
+npm-debug.log
+tests/js/*

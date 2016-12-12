@@ -5,8 +5,22 @@ module.exports = function(grunt) {
     ts: {
       app: {
         files: [{
-          src: ["typescript/*.ts", "!typescript/.baseDir.ts", "!typescript/_all.d.ts"],
+          src: ["typescript/*.ts", "!typescript/.baseDir.ts",
+              "!typescript/_all.d.ts"],
           dest: "./app"
+        }],
+        options: {
+          module: "commonjs",
+          noLib: true,
+          target: "es5",
+          sourceMap: false
+        }
+      },
+      test: {
+        files: [{
+          src: ["tests/*.ts", "!typescript/.baseDir.ts",
+              "!typescript/_all.d.ts"],
+          dest: "tests/js"
         }],
         options: {
           module: "commonjs",
@@ -21,6 +35,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks("grunt-ts");
 
   grunt.registerTask("default", [
-    "ts",
+    "ts"
   ]);
 };

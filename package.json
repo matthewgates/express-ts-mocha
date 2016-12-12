@@ -1,7 +1,7 @@
 {
   "name": "expressserver",
   "version": "1.0.0",
-  "description": "Express Server w/ Typescript Template",
+  "description": "Express Server w/ Mocha (Typescript)",
   "main": "app.js",
   "scripts": {
     "test": "mocha",
