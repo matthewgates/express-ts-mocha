@@ -1,0 +1,1 @@
+npm test "tests/**/*.js"

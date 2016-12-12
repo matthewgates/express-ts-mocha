@@ -4,7 +4,7 @@
   "description": "Express Server w/ Typescript Template",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "grunt": "grunt",
     "start": "node init"
   },
@@ -26,6 +26,7 @@
     "typings": "^1.4.0"
   },
   "devDependencies": {
+    "chai": "^3.5.0",
     "grunt": "^1.0.1",
     "mocha": "^3.2.0"
   }
